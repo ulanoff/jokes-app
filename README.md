@@ -12,7 +12,7 @@ Jokes App is an application with random jokes that uses an external API
 
 ## **Description**
 
-- A one-page app with random jokes. By default the user sees only the setup, but can open a panchline at the click of a button. Also, by pressing the button with the corresponding icon, you can update the joke.
+- A one-page app with random jokes. By default the user sees only the setup, but can open a punchline at the click of a button. Also, by pressing the button with the corresponding icon, you can update the joke.
 
 ## **Screenshots**
 **Launch Screen:**
