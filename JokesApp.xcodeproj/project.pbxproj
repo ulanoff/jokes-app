@@ -7,15 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		553CADE72A2E6B7200BB3FCF /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553CADE62A2E6B7200BB3FCF /* NetworkManager.swift */; };
+		553CADE92A2E6BB400BB3FCF /* JokeLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553CADE82A2E6BB400BB3FCF /* JokeLoader.swift */; };
+		553CADEB2A2E6C6000BB3FCF /* Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553CADEA2A2E6C6000BB3FCF /* Joke.swift */; };
+		553CADED2A2E6DCE00BB3FCF /* JokeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553CADEC2A2E6DCE00BB3FCF /* JokeFactory.swift */; };
+		553CADEF2A2E6DF400BB3FCF /* JokeFactoryDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553CADEE2A2E6DF400BB3FCF /* JokeFactoryDelegate.swift */; };
+		553CADF12A2E6E8100BB3FCF /* JokeFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553CADF02A2E6E8100BB3FCF /* JokeFactoryProtocol.swift */; };
 		557267C12A2CFF8200E6B860 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557267C02A2CFF8200E6B860 /* AppDelegate.swift */; };
 		557267C32A2CFF8200E6B860 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557267C22A2CFF8200E6B860 /* SceneDelegate.swift */; };
 		557267C52A2CFF8200E6B860 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557267C42A2CFF8200E6B860 /* ViewController.swift */; };
 		557267C82A2CFF8200E6B860 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 557267C62A2CFF8200E6B860 /* Main.storyboard */; };
 		557267CA2A2CFF8300E6B860 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 557267C92A2CFF8300E6B860 /* Assets.xcassets */; };
 		557267CD2A2CFF8300E6B860 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 557267CB2A2CFF8300E6B860 /* LaunchScreen.storyboard */; };
+		557267DD2A2D0BAE00E6B860 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 557267DB2A2D0BAD00E6B860 /* Roboto-Medium.ttf */; };
+		557267DE2A2D0BAE00E6B860 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 557267DC2A2D0BAD00E6B860 /* Roboto-Bold.ttf */; };
+		557267E02A2D0CCD00E6B860 /* UIColor+CustomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557267DF2A2D0CCD00E6B860 /* UIColor+CustomColors.swift */; };
+		558566182A2DF13C006D3D5B /* AlertPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558566172A2DF13C006D3D5B /* AlertPresenter.swift */; };
+		5585661A2A2DF1A1006D3D5B /* AlertModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558566192A2DF1A1006D3D5B /* AlertModel.swift */; };
+		5585661C2A2DF387006D3D5B /* AlertPresenterDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5585661B2A2DF387006D3D5B /* AlertPresenterDelegate.swift */; };
+		5585661E2A2DF4FD006D3D5B /* JokeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5585661D2A2DF4FD006D3D5B /* JokeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		553CADE62A2E6B7200BB3FCF /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		553CADE82A2E6BB400BB3FCF /* JokeLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeLoader.swift; sourceTree = "<group>"; };
+		553CADEA2A2E6C6000BB3FCF /* Joke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joke.swift; sourceTree = "<group>"; };
+		553CADEC2A2E6DCE00BB3FCF /* JokeFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeFactory.swift; sourceTree = "<group>"; };
+		553CADEE2A2E6DF400BB3FCF /* JokeFactoryDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeFactoryDelegate.swift; sourceTree = "<group>"; };
+		553CADF02A2E6E8100BB3FCF /* JokeFactoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeFactoryProtocol.swift; sourceTree = "<group>"; };
 		557267BD2A2CFF8200E6B860 /* JokesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JokesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		557267C02A2CFF8200E6B860 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		557267C22A2CFF8200E6B860 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +43,13 @@
 		557267C92A2CFF8300E6B860 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		557267CC2A2CFF8300E6B860 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		557267CE2A2CFF8300E6B860 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		557267DB2A2D0BAD00E6B860 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		557267DC2A2D0BAD00E6B860 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		557267DF2A2D0CCD00E6B860 /* UIColor+CustomColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+CustomColors.swift"; sourceTree = "<group>"; };
+		558566172A2DF13C006D3D5B /* AlertPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertPresenter.swift; sourceTree = "<group>"; };
+		558566192A2DF1A1006D3D5B /* AlertModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertModel.swift; sourceTree = "<group>"; };
+		5585661B2A2DF387006D3D5B /* AlertPresenterDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertPresenterDelegate.swift; sourceTree = "<group>"; };
+		5585661D2A2DF4FD006D3D5B /* JokeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +82,84 @@
 		557267BF2A2CFF8200E6B860 /* JokesApp */ = {
 			isa = PBXGroup;
 			children = (
+				557267D52A2D00BB00E6B860 /* Models */,
+				557267D62A2D00C000E6B860 /* Services */,
+				557267D72A2D00CD00E6B860 /* Presentation */,
+				557267D82A2D00DC00E6B860 /* Core */,
 				557267C02A2CFF8200E6B860 /* AppDelegate.swift */,
 				557267C22A2CFF8200E6B860 /* SceneDelegate.swift */,
-				557267C42A2CFF8200E6B860 /* ViewController.swift */,
-				557267C62A2CFF8200E6B860 /* Main.storyboard */,
+				557267D42A2D005B00E6B860 /* Resources */,
+			);
+			path = JokesApp;
+			sourceTree = "<group>";
+		};
+		557267D42A2D005B00E6B860 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				557267DA2A2D0B6B00E6B860 /* Fonts */,
 				557267C92A2CFF8300E6B860 /* Assets.xcassets */,
 				557267CB2A2CFF8300E6B860 /* LaunchScreen.storyboard */,
 				557267CE2A2CFF8300E6B860 /* Info.plist */,
 			);
-			path = JokesApp;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		557267D52A2D00BB00E6B860 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				558566192A2DF1A1006D3D5B /* AlertModel.swift */,
+				5585661D2A2DF4FD006D3D5B /* JokeViewModel.swift */,
+				553CADEA2A2E6C6000BB3FCF /* Joke.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		557267D62A2D00C000E6B860 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5585661B2A2DF387006D3D5B /* AlertPresenterDelegate.swift */,
+				553CADE62A2E6B7200BB3FCF /* NetworkManager.swift */,
+				553CADE82A2E6BB400BB3FCF /* JokeLoader.swift */,
+				553CADEC2A2E6DCE00BB3FCF /* JokeFactory.swift */,
+				553CADEE2A2E6DF400BB3FCF /* JokeFactoryDelegate.swift */,
+				553CADF02A2E6E8100BB3FCF /* JokeFactoryProtocol.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		557267D72A2D00CD00E6B860 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				557267C42A2CFF8200E6B860 /* ViewController.swift */,
+				557267C62A2CFF8200E6B860 /* Main.storyboard */,
+				558566172A2DF13C006D3D5B /* AlertPresenter.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		557267D82A2D00DC00E6B860 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				557267D92A2D00E400E6B860 /* Extensions */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		557267D92A2D00E400E6B860 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				557267DF2A2D0CCD00E6B860 /* UIColor+CustomColors.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		557267DA2A2D0B6B00E6B860 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				557267DC2A2D0BAD00E6B860 /* Roboto-Bold.ttf */,
+				557267DB2A2D0BAD00E6B860 /* Roboto-Medium.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +220,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				557267DD2A2D0BAE00E6B860 /* Roboto-Medium.ttf in Resources */,
 				557267CD2A2CFF8300E6B860 /* LaunchScreen.storyboard in Resources */,
+				557267DE2A2D0BAE00E6B860 /* Roboto-Bold.ttf in Resources */,
 				557267CA2A2CFF8300E6B860 /* Assets.xcassets in Resources */,
 				557267C82A2CFF8200E6B860 /* Main.storyboard in Resources */,
 			);
@@ -138,9 +235,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				553CADEB2A2E6C6000BB3FCF /* Joke.swift in Sources */,
+				553CADE72A2E6B7200BB3FCF /* NetworkManager.swift in Sources */,
+				558566182A2DF13C006D3D5B /* AlertPresenter.swift in Sources */,
 				557267C52A2CFF8200E6B860 /* ViewController.swift in Sources */,
 				557267C12A2CFF8200E6B860 /* AppDelegate.swift in Sources */,
+				553CADF12A2E6E8100BB3FCF /* JokeFactoryProtocol.swift in Sources */,
+				553CADED2A2E6DCE00BB3FCF /* JokeFactory.swift in Sources */,
+				5585661E2A2DF4FD006D3D5B /* JokeViewModel.swift in Sources */,
+				5585661C2A2DF387006D3D5B /* AlertPresenterDelegate.swift in Sources */,
+				557267E02A2D0CCD00E6B860 /* UIColor+CustomColors.swift in Sources */,
+				5585661A2A2DF1A1006D3D5B /* AlertModel.swift in Sources */,
 				557267C32A2CFF8200E6B860 /* SceneDelegate.swift in Sources */,
+				553CADE92A2E6BB400BB3FCF /* JokeLoader.swift in Sources */,
+				553CADEF2A2E6DF400BB3FCF /* JokeFactoryDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,12 +396,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = JokesApp/Info.plist;
+				INFOPLIST_FILE = JokesApp/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,6 +410,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.andrey.JokesApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -315,12 +427,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = JokesApp/Info.plist;
+				INFOPLIST_FILE = JokesApp/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -328,6 +441,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.andrey.JokesApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

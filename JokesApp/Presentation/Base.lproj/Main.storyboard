@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Bold.ttf">
+            <string>Roboto-Bold</string>
+        </array>
+        <array key="Roboto-Medium.ttf">
+            <string>Roboto-Medium</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="JokesApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="55" translatesAutoresizingMaskIntoConstraints="NO" id="0fS-8L-QW4">
+                                <rect key="frame" x="32" y="114" width="311" height="600"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="26" translatesAutoresizingMaskIntoConstraints="NO" id="eoJ-qN-UbQ">
+                                        <rect key="frame" x="0.0" y="0.0" width="311" height="481"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6LG-nS-4W9">
+                                                <rect key="frame" x="0.0" y="0.0" width="311" height="64"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="57" translatesAutoresizingMaskIntoConstraints="NO" id="And-7V-W2B">
+                                                        <rect key="frame" x="22" y="22.666666666666657" width="267" height="19"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Joke ID" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v4K-13-E5E">
+                                                                <rect key="frame" x="0.0" y="0.0" width="105" height="19"/>
+                                                                <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="16"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="265" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K16-gb-JMa">
+                                                                <rect key="frame" x="162" y="0.0" width="105" height="19"/>
+                                                                <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="16"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstItem="And-7V-W2B" firstAttribute="leading" secondItem="6LG-nS-4W9" secondAttribute="leading" constant="22" id="BiI-oY-xSi"/>
+                                                    <constraint firstItem="And-7V-W2B" firstAttribute="centerY" secondItem="6LG-nS-4W9" secondAttribute="centerY" id="Egv-fv-cNb"/>
+                                                    <constraint firstAttribute="height" constant="64" id="LWa-f7-KdI"/>
+                                                    <constraint firstAttribute="trailing" secondItem="And-7V-W2B" secondAttribute="trailing" constant="22" id="u6h-Dm-RM0"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9tA-Jl-h8T">
+                                                <rect key="frame" x="0.0" y="90" width="311" height="64"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="57" translatesAutoresizingMaskIntoConstraints="NO" id="g0i-Bo-R5z">
+                                                        <rect key="frame" x="22" y="22.666666666666657" width="267" height="19"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Type" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b2o-WD-hcO">
+                                                                <rect key="frame" x="0.0" y="0.0" width="105" height="19"/>
+                                                                <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="16"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="general" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ABa-Lv-Io7">
+                                                                <rect key="frame" x="162" y="0.0" width="105" height="19"/>
+                                                                <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="16"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="trailing" secondItem="g0i-Bo-R5z" secondAttribute="trailing" constant="22" id="2dg-lC-Rdw"/>
+                                                    <constraint firstItem="g0i-Bo-R5z" firstAttribute="leading" secondItem="9tA-Jl-h8T" secondAttribute="leading" constant="22" id="eKz-lL-gAN"/>
+                                                    <constraint firstItem="g0i-Bo-R5z" firstAttribute="centerY" secondItem="9tA-Jl-h8T" secondAttribute="centerY" id="iG1-X7-SjZ"/>
+                                                    <constraint firstAttribute="height" constant="64" id="lbY-9D-pmr"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gMF-6e-K8j">
+                                                <rect key="frame" x="0.0" y="180" width="311" height="301"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Why did the chicken get a penalty?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z6x-y5-f2m">
+                                                        <rect key="frame" x="24" y="67" width="263" height="210"/>
+                                                        <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="24"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Setup" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b2t-rt-JpU">
+                                                        <rect key="frame" x="24" y="24" width="263" height="19"/>
+                                                        <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="16"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="56O-tQ-Kbk">
+                                                        <rect key="frame" x="145.66666666666666" y="140.66666666666669" width="20" height="20"/>
+                                                    </activityIndicatorView>
+                                                </subviews>
+                                                <color key="backgroundColor" name="Pink"/>
+                                                <constraints>
+                                                    <constraint firstItem="b2t-rt-JpU" firstAttribute="top" secondItem="gMF-6e-K8j" secondAttribute="top" constant="24" id="1wA-Ih-azD"/>
+                                                    <constraint firstItem="56O-tQ-Kbk" firstAttribute="centerY" secondItem="gMF-6e-K8j" secondAttribute="centerY" id="4cb-4E-GlI"/>
+                                                    <constraint firstAttribute="bottom" secondItem="z6x-y5-f2m" secondAttribute="bottom" constant="24" id="HuY-aI-Wq3"/>
+                                                    <constraint firstAttribute="trailing" secondItem="z6x-y5-f2m" secondAttribute="trailing" constant="24" id="PpR-y3-J0p"/>
+                                                    <constraint firstAttribute="trailing" secondItem="b2t-rt-JpU" secondAttribute="trailing" constant="24" id="Too-Hb-mSz"/>
+                                                    <constraint firstItem="b2t-rt-JpU" firstAttribute="leading" secondItem="gMF-6e-K8j" secondAttribute="leading" constant="24" id="W94-Cc-zNw"/>
+                                                    <constraint firstItem="z6x-y5-f2m" firstAttribute="top" secondItem="b2t-rt-JpU" secondAttribute="bottom" constant="24" id="iB1-zF-gdY"/>
+                                                    <constraint firstItem="z6x-y5-f2m" firstAttribute="leading" secondItem="gMF-6e-K8j" secondAttribute="leading" constant="24" id="ocI-6d-L0h"/>
+                                                    <constraint firstItem="56O-tQ-Kbk" firstAttribute="centerX" secondItem="gMF-6e-K8j" secondAttribute="centerX" id="x7M-9k-h0E"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="9tA-Jl-h8T" firstAttribute="width" secondItem="6LG-nS-4W9" secondAttribute="width" id="BDO-dr-Tgs"/>
+                                            <constraint firstItem="gMF-6e-K8j" firstAttribute="width" secondItem="9tA-Jl-h8T" secondAttribute="width" id="wCq-XZ-SyP"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="fpB-sv-zTj">
+                                        <rect key="frame" x="0.0" y="536" width="311" height="64"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="crm-l5-mst" userLabel="New Joke Button">
+                                                <rect key="frame" x="0.0" y="0.0" width="64" height="64"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Refresh Icon" translatesAutoresizingMaskIntoConstraints="NO" id="2d0-Qp-rf2">
+                                                        <rect key="frame" x="14" y="14" width="36" height="36"/>
+                                                    </imageView>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <gestureRecognizers/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="64" id="0Q0-Gg-w9x"/>
+                                                    <constraint firstItem="2d0-Qp-rf2" firstAttribute="centerX" secondItem="crm-l5-mst" secondAttribute="centerX" id="7Lc-JX-oIK"/>
+                                                    <constraint firstAttribute="height" constant="64" id="9X1-BI-W17"/>
+                                                    <constraint firstItem="2d0-Qp-rf2" firstAttribute="centerY" secondItem="crm-l5-mst" secondAttribute="centerY" id="tty-HH-xkH"/>
+                                                </constraints>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="0Tw-uX-s4A" appends="YES" id="jot-Zb-Yd2"/>
+                                                </connections>
+                                            </view>
+                                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Show punchline" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6kN-y5-XIs" userLabel="Show Punchline Button">
+                                                <rect key="frame" x="80" y="0.0" width="231" height="64"/>
+                                                <color key="backgroundColor" name="Accent Green"/>
+                                                <gestureRecognizers/>
+                                                <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="16"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="4fb-AZ-QC8" appends="YES" id="f2X-dz-ciD"/>
+                                                </connections>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="64" id="SCj-0f-qeX"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="fpB-sv-zTj" firstAttribute="width" secondItem="eoJ-qN-UbQ" secondAttribute="width" id="GN2-Qn-09u"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" name="Gray"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="0fS-8L-QW4" secondAttribute="trailing" constant="32" id="P6s-Jx-Plq"/>
+                            <constraint firstItem="0fS-8L-QW4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="YrP-Z5-brJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="0fS-8L-QW4" secondAttribute="bottom" constant="64" id="rOe-w3-UqE"/>
+                            <constraint firstItem="0fS-8L-QW4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="64" id="uZV-VW-w77"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="jokeIdLabel" destination="K16-gb-JMa" id="Cqa-iY-37P"/>
+                        <outlet property="jokeSetupLabel" destination="z6x-y5-f2m" id="axX-y2-2Go"/>
+                        <outlet property="jokeTypeLabel" destination="ABa-Lv-Io7" id="hmH-2c-SJJ"/>
+                        <outlet property="loadingIndicator" destination="56O-tQ-Kbk" id="WRB-ec-Y4i"/>
+                        <outlet property="newJokeButtonView" destination="crm-l5-mst" id="gEf-Vw-srm"/>
+                        <outlet property="showPuchlineButtonView" destination="6kN-y5-XIs" id="PZD-EN-NYB"/>
+                        <outletCollection property="viewsWithBorder" destination="6LG-nS-4W9" collectionClass="NSMutableArray" id="Mpb-Ws-R1y"/>
+                        <outletCollection property="viewsWithBorder" destination="9tA-Jl-h8T" collectionClass="NSMutableArray" id="sig-FT-rmR"/>
+                        <outletCollection property="viewsWithBorder" destination="gMF-6e-K8j" collectionClass="NSMutableArray" id="n5Y-OI-OwR"/>
+                        <outletCollection property="viewsWithBorder" destination="crm-l5-mst" collectionClass="NSMutableArray" id="CAW-mn-Rhh"/>
+                        <outletCollection property="viewsWithBorder" destination="6kN-y5-XIs" collectionClass="NSMutableArray" id="1Fc-Uh-ggu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="0Tw-uX-s4A" userLabel="New Joke Button Tap Gesture Recognizer">
+                    <connections>
+                        <action selector="newJokeButtonPressed:" destination="BYZ-38-t0r" id="Dxn-gc-mze"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="4fb-AZ-QC8" userLabel="Show Punchline Gesture Recognizer">
+                    <connections>
+                        <action selector="showPunchlineButtonPressed:" destination="BYZ-38-t0r" id="IUE-La-jAl"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="-27.455357142857142"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Refresh Icon" width="36" height="36"/>
+        <namedColor name="Accent Green">
+            <color red="0.56099998950958252" green="0.94900000095367432" blue="0.56099998950958252" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Gray">
+            <color red="0.83899998664855957" green="0.83899998664855957" blue="0.83899998664855957" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Pink">
+            <color red="0.98000001907348633" green="0.56099998950958252" blue="0.76899999380111694" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
